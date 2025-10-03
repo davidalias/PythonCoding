@@ -63,3 +63,28 @@ A(searching, sorting, divide&conquer, hashing, greedy, recursion, backtracking, 
 
    Similarly, removing an element is also O(log n), as it removes the element (only the root element), and then bubbles around to restore the heap property
 
+   * Hashmap
+   - stores data using key-value pairs (key runs thru a hash function which determines where the value to be stored)
+   - needs hash collision resolution which could be a linked list chaining from the hashmap position, or it could be a linear probing where we find the next available position. This is the only downside of hashmap
+
+   - accesing an element by its key in hashmap -> O(1), but worse case, O(n), if everything is put on to that linked list
+
+   - deleting an element is also O(1), but for linked list from that postion, its O(n) operation.
+
+  - In python, hashmaps are pretty much same as dictionary
+
+
+  * Binary search tree
+  - similar to family tree, but key difference is that each node follows a specific ordering rule, the left child must have values lower than the parent, the right child must have values greater than the parent. This makes searching, insertion and deletion extremely efficient.
+
+  - accessing, inserting and deleting -> O(log n)
+
+  - but if the binary search tree is unbalanced for some reason, it will look like a linked list, and hence accessing, inserting and deleting takes 
+  O(n) operation.
+
+
+  * Set
+  - An unordered collection of unique elements typically implemented using a hash table
+
+  - inserting/ deleting -> O(1) operation, but worse case scenario, it can be O(n) for hash set?
+
