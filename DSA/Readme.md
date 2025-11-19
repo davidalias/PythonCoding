@@ -88,3 +88,4 @@ A(searching, sorting, divide&conquer, hashing, greedy, recursion, backtracking, 
 
   - inserting/ deleting -> O(1) operation, but worse case scenario, it can be O(n) for hash set?
 
+Arrays/LinkedLists/Stacks/Queues/Binary Trees/Hash Tables
